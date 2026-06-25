@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>PVP ERP Dashboard</title>
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+
+<div class="container-fluid">
+
+<span class="navbar-brand">
+
+PVP TRANSPORT ERP
+
+</span>
+
+<a href="/logout" class="btn btn-danger">
+
+Logout
+
+</a>
+
+</div>
+
+</nav>
+
+<div class="container mt-4">
+
+<h2>Dashboard</h2>
+
+<div class="row">
+
+<div class="col-md-6">
+
+<div class="card bg-primary text-white">
+
+<div class="card-body">
+
+<h4>Total Vehicles</h4>
+
+<h1>{{ total_vehicles }}</h1>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-6">
+
+<div class="card bg-success text-white">
+
+<div class="card-body">
+
+<h4>Total Drivers</h4>
+
+<h1>{{ total_drivers }}</h1>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<br>
+
+<a href="/vehicles" class="btn btn-primary">Vehicle Master</a>
+
+<a href="/drivers" class="btn btn-success">Driver Master</a>
+
+<a href="/trips" class="btn btn-warning">Trip Entry</a>
+
+<a href="/allocation" class="btn btn-info">Load Allocation</a>
+
+<a href="/attendance" class="btn btn-secondary">Attendance</a>
+
+<a href="/diesel" class="btn btn-dark">Diesel</a>
+
+<a href="/maintenance" class="btn btn-danger">Maintenance</a>
+
+<a href="/salary" class="btn btn-primary">Salary</a>
+
+<a href="/payment" class="btn btn-success">Payment</a>
+
+<a href="/reports" class="btn btn-dark">Reports</a>
+
+<a href="/vehicle_search" class="btn btn-info">Vehicle Search</a>
+
+<a href="/driver_search" class="btn btn-info">driver Search</a>
+
+<a href="/trip_search" class="btn btn-info">Trip Search</a>
+
+<a href="/attendance_search" class="btn btn-info">Attendance Search</a>
+
+<a href="/vehicle_export" class="btn btn-success">Export Vehicle Excel</a>
+
+
+</div>
+
+</body>
+
+</html>
